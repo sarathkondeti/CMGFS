@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CMGFS</string>
+    <string-array name="eateries">
+        <item>string1</item>
+        <item>string2</item>
+        <item>string3</item>
+    </string-array>
+    <string-array name="non_eateries">
+        <item>string1</item>
+        <item>string2</item>
+        <item>string3</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="customer_qualityOfProduct">Quality of the Products/Service</string>
+    <string name="customer_quantityForPrice">Quantity for the price( if applicable)</string>
+    <string name="customer_qualityOfStaff">Quality of service by the shop staff</string>
+    <string name="customer_speed">Speed of service</string>
+    <string name="customer_hygiene">Staff/Shop/Utensil Hygiene</string>
+    <string name="customer_staffNeglectYou">Did the staff neglect you when you approached</string>
+    <string name="customer_staffManners">Did the staff shout or respond in an unpleasant manner:</string>
+    <string name="customer_itemMatchRequirment">Did the item match with your requirement:</string>
+    <string name="customer_specificRemark">Any specific remark/complaint on products/service purchased by you</string>
+    <string name="customer_necessityForShop">Any product or service which is a necessity to be provided by shop:</string>
+    <string name="customer_otherFeedback">Any other feed back</string>
+    <string name="eatery_placeHygiene">Hygiene of the serving place and dining place</string>
+    <string name="eatery_cookinAreaHygiene">Hygiene of the cooking area</string>
+    <string name="eatery_qualityQuantity">Quality and Quantity</string>
+    <string name="eatery_priceOfItemsRating">Rating for price of Items</string>
+    <string name="eatery_staffHospitality">Hospitality of the staff</string>
+    <string name="eatery_speed">Speed of service</string>
+    <string name="eatery_untensilHygiene">Shop/Utensil Hygiene</string>
+    <string name="eatery_staffHygiene">Staff Hygiene (like gloves and caps)</string>
+    <string name="eatery_itemAvaliability">Availability of items</string>
+    <string name="eatery_adherenece">Adherence operational timings:</string>
+    <string name="observationsByCMGFSteam">Observations by CMGFS team:</string>
+    <string name="teamMembersinvolved">Names of the team members invovled</string>
+    <string name="nonEatery_priceListAvaliability">Availability of price list (Yes/No)</string>
+    <string name="nonEatery_availabilityOfItems">Availability of Items</string>
+    <string name="nonEatery_speed">Speed of service</string>
+    <string name="nonEateries_priceRating">Rating for price of Products/Services</string>
+    <string name="nonEatery_hospitality">Hospitality of the staff</string>
+    <string name="nonEatery_qualityOfProducts">Quality of Products/Services</string>
+    <string name="nonEatery_ambience">Shop\'s Ambience</string>
+    <string name="nonEatery_adherence">Adherence operational timings:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
