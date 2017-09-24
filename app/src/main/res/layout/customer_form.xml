@@ -205,33 +205,48 @@
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-        <EditText
-            android:id="@+id/editText6"
+        <TextView
+            android:id="@+id/textView15"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/customer_specificRemark"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
             android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:ems="10"
             android:hint="Comments"
             android:inputType="textPersonName"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15"
-            app:layout_constraintHorizontal_bias="0.0" />
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/customer_necessityForShop"
             android:textAppearance="@style/TextAppearance.AppCompat"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText6"
             android:layout_marginRight="8dp"
-            app:layout_constraintRight_toRightOf="parent" />
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" />
 
         <EditText
             android:id="@+id/editText7"
@@ -301,23 +316,23 @@
 
         <EditText
             android:id="@+id/editText10"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="7dp"
             android:ems="10"
             android:hint="Roll No"
             android:inputType="textPersonName"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText9"
             app:layout_constraintRight_toLeftOf="@+id/guideline"
-            android:layout_marginRight="8dp" />
+            app:layout_constraintTop_toBottomOf="@+id/editText9" />
 
         <EditText
             android:id="@+id/editText11"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="6dp"
             android:ems="10"
             android:hint="Contact"
             android:inputType="phone"
@@ -325,7 +340,8 @@
             android:layout_marginRight="8dp"
             app:layout_constraintRight_toRightOf="parent"
             android:layout_marginLeft="8dp"
-            app:layout_constraintLeft_toLeftOf="@+id/guideline" />
+            app:layout_constraintLeft_toLeftOf="@+id/guideline"
+            app:layout_constraintHorizontal_bias="0.6" />
 
         <RatingBar
             android:id="@+id/ratingBar"
@@ -334,11 +350,12 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:layout_marginTop="0dp"
-            android:isIndicator="false"
             android:focusable="true"
+            android:isIndicator="false"
             android:numStars="5"
-            android:rating="0"
+            android:rating="3"
             android:stepSize="1"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView7"
             tools:layout_editor_absoluteX="252dp" />
@@ -353,6 +370,7 @@
             android:isIndicator="false"
             android:focusable="true"
             android:rating="0"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView8" />
 
@@ -366,6 +384,7 @@
             android:focusable="true"
             android:layout_marginTop="0dp"
             android:rating="0"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView9" />
 
@@ -379,6 +398,7 @@
             android:isIndicator="false"
             android:focusable="true"
             android:rating="0"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView10" />
 
@@ -392,6 +412,7 @@
             android:isIndicator="false"
             android:focusable="true"
             android:rating="0"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView11" />
 
@@ -445,19 +466,6 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText11" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="24dp"
-            android:text="@string/customer_specificRemark"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13"
-            android:layout_marginRight="8dp"
-            app:layout_constraintRight_toRightOf="parent" />
 
         <android.support.constraint.Guideline
             android:layout_width="wrap_content"

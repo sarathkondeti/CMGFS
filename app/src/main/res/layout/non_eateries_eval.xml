@@ -264,6 +264,7 @@
             android:numStars="5"
             android:rating="5"
             android:stepSize="1"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView7"
             tools:layout_editor_absoluteX="252dp" />
@@ -276,6 +277,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="0dp"
             android:rating="5"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView8" />
 
@@ -287,6 +289,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="0dp"
             android:rating="5"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView9" />
 
@@ -298,6 +301,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="0dp"
             android:rating="5"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView10" />
 
@@ -309,6 +313,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="0dp"
             android:rating="3"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView11" />
 
@@ -334,6 +339,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText5" />
 
@@ -344,6 +350,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             app:layout_constraintRight_toRightOf="parent"
+            android:theme="@style/RatingBar"
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/editText7" />
 
@@ -354,6 +361,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText12" />
 
@@ -364,6 +372,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:theme="@style/RatingBar"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText6" />
 
